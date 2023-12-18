@@ -15,8 +15,8 @@ export const Reader = ({ value }) => {
           borderRadius: "0.1em",
           textWrap: "wrap",
           padding: "0.5em",
-          overflowY: "scroll",
-          fontSize: 12,
+          overflowY: "auto",
+          fontSize: 13,
         }}
       >
         {parse(value)}

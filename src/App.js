@@ -7,7 +7,7 @@ import React from "react";
 function App() {
   const [value, setValue] = React.useState("");
   return (
-    <div style={{ display: "flex" }}>
+    <div style={{ display: "flex", marginTop: "1em" }}>
       <div
         style={{
           padding: "1em 1.5em",
