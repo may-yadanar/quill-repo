@@ -16,6 +16,7 @@ export const Reader = ({ value }) => {
           textWrap: "wrap",
           padding: "0.5em",
           overflowY: "scroll",
+          fontSize: 12,
         }}
       >
         {parse(value)}
